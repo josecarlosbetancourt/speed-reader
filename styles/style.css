@@ -1,0 +1,63 @@
+
+body {
+    background-color: #c0aa9e;
+    font-family: sans-serif;
+}
+
+.container {
+    height: 60%;
+    display: grid;
+    /* align-items: center; */
+    justify-content: center;
+}
+
+
+form,
+button {
+    margin-left: 13%;
+}
+
+#para {
+    font-family: 'Space Mono', monospace;
+    margin-left: 40%;
+    padding-top: 2%;
+}
+
+#focus {
+    color: red;
+}
+
+span {
+    text-align: left;
+    white-space: pre;
+    color: black;
+    font-style: italic;
+}
+
+img {
+    border-radius: 15px;
+    margin-left: 5%;
+}
+
+#reader {
+    background-color: white;
+    padding-bottom: 2%;
+    border-radius: 15px;
+    width: 50%;
+    margin-left: 5%;
+}
+
+#btn {
+    height: 50px;
+    width: 50px;
+    border-radius: 50px;
+    outline: none;
+    border: none;
+    color: red;
+    background-color: black;
+    cursor: pointer;
+}
+
+#btn:hover{
+    opacity: 0.7;
+}

@@ -1,0 +1,44 @@
+
+<DOCTYPE html>
+    <html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width" initial-scale="1.0">
+        <meta name="author" content="Jose Carlos Betancourt">
+        <meta name="author 2" content="Danilo Zhu">
+        <link rel="stylesheet" type="text/css" href="styles/style.css">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Space+Mono&display=swap" rel="stylesheet">
+        <!-- <link href = "https://fonts.googleapis.com/css2?family=Hind&display=swap" rel="stylesheet"> -->
+        <script src="scripts/script.obfuscated.js" defer></script>
+        <title>Speed Reader</title>
+    </head>
+
+    <body>
+        <div class="container">
+            <h1>HOW FAST CAN YOU READ RON SWANSON QUOTES?</h1>
+            <img src='https://www.gannett-cdn.com/-mm-/582568e00c17e48a137dbf529626145d89c4861c/c=0-151-3000-1846/local/-/media/2016/08/03/INGroup/Indianapolis/636058464185558674-parksandrec13.JPG?width=660&height=373&fit=crop&format=pjpg&auto=webp'
+                alt='Ron Swanson' />
+            <!-- Image from https://www.indystar.com/story/entertainment/2016/08/03/who-ron-swanson-would-vote-presidential-election/88044768/
+            PARKS AND RECREATION -- "Leslie vs April" Episode 507 -- Pictured: Nick Offerman as Ron Swanson (Photo by: Colleen Hayes/NBC) -->
+            <div id='reader'>
+                <p id="para">
+                    <span id="befFocus">___Read fast</span><span id="focus"></span><span id="aftFocus"></span>
+                </p>
+                <form>
+                    <label>Speed:</label>
+                    <input type="range" id="speed" name="speed" value="100" step="50" min="50" max="1000">
+                    <p><span id="wpm"></span> WPM</p>
+                </form>
+                <button id="btn">Start</button>
+            </div>
+            <footer>
+                <p> &copy Jose Carlos Betancourt, 2020.
+                    Ron Swanson Quote API from: <a href = "https://ron-swanson-quotes.herokuapp.com/v2/quotes" target = "_blank">Ron-Swanson-Quotes</a>
+                </p>
+            </footer>
+        </div>
+    </body>
+
+    </html>
